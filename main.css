@@ -200,3 +200,11 @@ body>div>h1 {
     text-align:center;
 }
 
+/* =========== /SVG Animation ================ */
+
+path{
+    stroke: #fff;
+    fill: #fff;
+}
+
+
