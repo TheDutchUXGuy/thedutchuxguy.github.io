@@ -202,10 +202,36 @@ body>div>h1 {
 
 /* =========== /SVG Animation ================ */
 
-path{
+.path{
     stroke: #fff;
     fill: #fff;
     stroke-dasharray: 10000;
+    opactity: 10;
+    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        fill:none;
+        stroke-dashoffset:10000;
+    }
+    
+    30% {
+        opacity:10;
+        fill:none;
+        stroke-dashoffset:10000;
+    }
+    
+    90% {
+        fill:rgba(255,255,255,0);
+    }
+    
+    100% {
+        opacity:10;
+        fill: rgba(255,255,255,0);
+        stroke-dashoffset: 0;
+    }
 }
 
 
