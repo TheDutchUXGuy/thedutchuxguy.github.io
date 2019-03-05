@@ -202,7 +202,7 @@ body>div>h1 {
 
 /* =========== /SVG Animation ================ */
 
-.path{
+#Layer_1 {
     stroke: #fff;
     fill: #fff;
     stroke-dasharray: 10000;
