@@ -207,7 +207,7 @@ body>div>h1 {
     fill: #fff;
     stroke-dasharray: 10000;
     opactity: 10;
-    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+    animation: animate 6s cubic-bezier(0,0.23,1,.1);
 }
 
 @keyframes animate {
